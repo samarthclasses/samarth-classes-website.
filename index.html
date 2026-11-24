@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SAMARTH CLASSES, Newale Wasti near Gharkul. Coaching for Classes 8–10, 11–12 Science and MHT-CET preparation. Admissions enquiry on WhatsApp.">
+  <meta name="theme-color" content="#102a56">
+  <title>SAMARTH CLASSES | Learn Today. Lead Tomorrow.</title>
+  <style>
+    :root{--navy:#102a56;--blue:#2457a7;--orange:#f59e0b;--ink:#17243a;--muted:#64748b;--paper:#f5f8fc;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:#fff}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+    header{background:rgba(255,255,255,.96);position:sticky;top:0;z-index:10;border-bottom:1px solid #e6edf5}
+    .nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900;color:var(--navy);letter-spacing:.4px}
+    .logo{width:46px;height:46px;border-radius:13px;background:linear-gradient(135deg,var(--navy),var(--blue));color:white;display:grid;place-items:center;font-size:20px;font-weight:900}
+    .brand small{display:block;font-size:10px;letter-spacing:2px;color:var(--muted);font-weight:700}
+    nav{display:flex;gap:22px;align-items:center;font-size:14px;font-weight:700;color:#334155}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;border-radius:9px;font-weight:800;background:var(--orange);color:#1d2939;border:0;cursor:pointer}
+    .btn.blue{background:var(--navy);color:#fff}.btn.outline{background:transparent;border:1px solid #cbd5e1;color:var(--navy)}
+    .hero{background:radial-gradient(circle at 85% 15%,#315fa5 0,transparent 32%),linear-gradient(120deg,#0d2043,#173d75);color:#fff;padding:88px 0 82px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:42px}
+    .eyebrow{color:#ffd27a;font-size:13px;letter-spacing:2px;text-transform:uppercase;font-weight:900}
+    h1{font-size:clamp(38px,6vw,66px);line-height:1.05;margin:14px 0 18px;letter-spacing:-1.5px}
+    .hero p{font-size:18px;color:#dbeafe;max-width:640px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .hero-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:22px;padding:28px;backdrop-filter:blur(6px)}
+    .hero-card h3{margin:0 0 14px;font-size:21px}.stat{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.17);color:#e5efff}.stat:last-child{border:0}
+    section{padding:72px 0}.soft{background:var(--paper)}.section-head{text-align:center;max-width:720px;margin:0 auto 38px}
+    .section-head .eyebrow{color:var(--blue)}h2{font-size:clamp(29px,4vw,42px);line-height:1.15;color:var(--navy);margin:9px 0 12px}
+    .section-head p,.muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .card{background:#fff;border:1px solid #e4eaf2;border-radius:16px;padding:25px;box-shadow:0 8px 25px rgba(16,42,86,.045)}
+    .card .symbol{width:48px;height:48px;border-radius:13px;background:#eaf1ff;color:var(--blue);display:grid;place-items:center;font-size:23px;margin-bottom:15px}
+    .card h3{margin:0 0 8px;color:var(--navy);font-size:20px}.card p{margin:0;color:var(--muted)}
+    .two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+    .feature-panel{background:linear-gradient(145deg,#edf4ff,#fff);border:1px solid #dce8f8;border-radius:20px;padding:30px}
+    .check{display:flex;gap:10px;margin:13px 0;color:#334155}.check b{color:#16804a}
+    .results{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .result-box{border-radius:16px;background:#fff;border:1px dashed #b9c9df;padding:25px;text-align:center}
+    .result-box strong{display:block;color:var(--navy);font-size:20px}.result-box span{color:var(--muted);font-size:14px}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .gallery .tile{min-height:170px;border-radius:15px;background:linear-gradient(135deg,#dbeafe,#eff6ff);display:grid;place-items:center;text-align:center;padding:18px;color:#31527f;font-weight:700;border:1px solid #d7e5f8}
+    .gallery .tile span{font-size:34px;display:block;margin-bottom:8px}
+    .contact{background:var(--navy);color:white}.contact h2{color:white}.contact p{color:#dbeafe}
+    form{display:grid;gap:12px;background:#fff;color:var(--ink);padding:25px;border-radius:16px}
+    input,select,textarea{width:100%;padding:13px 14px;border:1px solid #cbd5e1;border-radius:8px;font:inherit;background:white}
+    textarea{min-height:90px;resize:vertical}label{font-size:13px;font-weight:800;color:#334155}
+    .field{display:grid;gap:5px}.form-note{font-size:12px;color:var(--muted);margin:0}
+    footer{background:#0a1933;color:#cbd5e1;padding:28px 0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .whatsapp-float{position:fixed;right:20px;bottom:20px;background:#20bd62;color:#fff;padding:13px 18px;border-radius:40px;font-weight:900;box-shadow:0 8px 25px #0003;z-index:20}
+    @media(max-width:800px){nav{display:none}.hero-grid,.two{grid-template-columns:1fr}.grid,.results{grid-template-columns:1fr 1fr}.hero{padding:65px 0}}
+    @media(max-width:540px){.grid,.results,.gallery{grid-template-columns:1fr}.hero-card{padding:22px}section{padding:55px 0}.brand{font-size:14px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home"><div class="logo">S</div><div>SAMARTH CLASSES<small>LEARN • PRACTICE • EXCEL</small></div></a>
+    <nav><a href="#about">About</a><a href="#courses">Courses</a><a href="#results">Results</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav>
+    <a class="btn blue" href="#admission">Enquire Now</a>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Trusted learning since 2013</div>
+        <h1>Build strong concepts.<br>Achieve bigger goals.</h1>
+        <p>Focused coaching for Classes 8–10, 11–12 Science and MHT-CET preparation at SAMARTH CLASSES.</p>
+        <div class="hero-actions"><a class="btn" href="#admission">Enquire for Admissions</a><a class="btn outline" style="color:white;border-color:#9bb7df" href="#courses">Explore Courses</a></div>
+      </div>
+      <div class="hero-card">
+        <h3>Your learning journey starts here</h3>
+        <div class="stat"><span>School coaching</span><b>8th–10th</b></div>
+        <div class="stat"><span>Science stream</span><b>11th–12th</b></div>
+        <div class="stat"><span>Entrance preparation</span><b>MHT-CET</b></div>
+        <div class="stat"><span>Location</span><b>Near Gharkul</b></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap two">
+      <div>
+        <div class="eyebrow" style="color:#2457a7">About Samarth Classes</div>
+        <h2>Education with attention, practice and guidance.</h2>
+        <p class="muted">Established in 2013, SAMARTH CLASSES supports students with concept-focused teaching, regular practice and a learning environment that encourages progress.</p>
+        <p class="muted">Our aim is to help every student build confidence, strengthen fundamentals and prepare systematically for examinations.</p>
+        <a class="btn blue" href="#admission">Talk to our team</a>
+      </div>
+      <div class="feature-panel">
+        <h3 style="color:#102a56;margin-top:0">Our learning approach</h3>
+        <div class="check"><b>✓</b><span>Qualified faculty and focused teaching</span></div>
+        <div class="check"><b>✓</b><span>Small batches and individual attention</span></div>
+        <div class="check"><b>✓</b><span>Regular tests, feedback and doubt-solving</span></div>
+        <div class="check"><b>✓</b><span>Digital notes and revision support</span></div>
+        <div class="check"><b>✓</b><span>Guidance for students and parents</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="soft" id="courses">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">What we teach</div><h2>Courses designed for every stage</h2><p>Choose the right learning path for your current class and future goals.</p></div>
+      <div class="grid">
+        <article class="card"><div class="symbol">📘</div><h3>Classes 8th–10th</h3><p>Mathematics, Science, English, Sanskrit, Hindi, Marathi, History and Geography for Maharashtra State Board students.</p></article>
+        <article class="card"><div class="symbol">🔬</div><h3>11th–12th Science</h3><p>Physics, Chemistry, Mathematics and Biology with concept building, practice and examination preparation.</p></article>
+        <article class="card"><div class="symbol">🎯</div><h3>MHT-CET Preparation</h3><p>Focused Mathematics preparation, question practice, previous-year questions and test-based revision.</p></article>
+        <article class="card"><div class="symbol">🧮</div><h3>Abacus & Vedic Mathematics</h3><p>Skill-building programmes to develop number sense, calculation ability and confidence.</p></article>
+        <article class="card"><div class="symbol">🗣️</div><h3>Spoken English</h3><p>Practical communication and language learning for students and working professionals.</p></article>
+        <article class="card"><div class="symbol">✍️</div><h3>Language Courses</h3><p>Basic Marathi, Hindi, Sanskrit and English learning support.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="results">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Student achievements</div><h2>Results worth celebrating</h2><p>We are proud of our students' hard work and progress. This section can showcase verified marks, ranks and parent/student testimonials.</p></div>
+      <div class="results">
+        <div class="result-box"><strong>Student Achievements</strong><span>Add student name, class and verified result</span></div>
+        <div class="result-box"><strong>Board Examination</strong><span>Showcase verified board results</span></div>
+        <div class="result-box"><strong>MHT-CET Success</strong><span>Add verified percentile and year</span></div>
+      </div>
+      <p class="muted" style="text-align:center;font-size:13px;margin-top:18px">Please add only results and testimonials approved for public display.</p>
+    </div>
+  </section>
+
+  <section class="soft" id="gallery">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Life at Samarth</div><h2>Our classroom and activities</h2><p>Replace these placeholders with real classroom, event, workshop and student achievement photographs.</p></div>
+      <div class="gallery">
+        <div class="tile"><div><span>🏫</span>Classroom & Teaching</div></div>
+        <div class="tile"><div><span>🧠</span>Workshops & Activities</div></div>
+        <div class="tile"><div><span>🏆</span>Student Achievements</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap two">
+      <div>
+        <div class="eyebrow">Get in touch</div><h2>Let's plan your next step.</h2>
+        <p><b>SAMARTH CLASSES</b><br>Newale Wasti, near Gharkul, Spine Road area, Pimpri-Chinchwad, Maharashtra.</p>
+        <p>Call: <a href="tel:+918668410379">8668410379</a><br>Alternate: <a href="tel:+917620098314">7620098314</a></p>
+        <a class="btn" href="https://wa.me/918668410379?text=Hello%20Samarth%20Classes%2C%20I%20want%20admission%20information." target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+      <form id="admission">
+        <h3 style="margin:0;color:#102a56">Admission enquiry</h3>
+        <p class="form-note">Fill in the details. Your WhatsApp app will open with a pre-filled enquiry message.</p>
+        <div class="field"><label for="parent">Parent / Student name</label><input id="parent" required placeholder="Enter your name"></div>
+        <div class="field"><label for="phone">Mobile number</label><input id="phone" required inputmode="tel" pattern="[0-9 +()-]{10,16}" placeholder="Enter mobile number"></div>
+        <div class="field"><label for="standard">Student's class</label><select id="standard" required><option value="">Select class</option><option>8th</option><option>9th</option><option>10th</option><option>11th Science</option><option>12th Science</option><option>MHT-CET</option><option>Other course</option></select></div>
+        <div class="field"><label for="message">Message (optional)</label><textarea id="message" placeholder="Subjects or questions you want to ask"></textarea></div>
+        <button class="btn blue" type="submit">Send enquiry on WhatsApp</button>
+        <p class="form-note">This form opens WhatsApp; it does not store submissions on this website.</p>
+      </form>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> SAMARTH CLASSES. All rights reserved.</span><span>Learn Today. Lead Tomorrow.</span></div></footer>
+<a class="whatsapp-float" href="https://wa.me/918668410379?text=Hello%20Samarth%20Classes" target="_blank" rel="noopener">WhatsApp Us</a>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('admission').addEventListener('submit', function(e){
+    e.preventDefault();
+    const name = document.getElementById('parent').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const standard = document.getElementById('standard').value;
+    const message = document.getElementById('message').value.trim();
+    const text = `Admission enquiry - SAMARTH CLASSES%0AName: ${encodeURIComponent(name)}%0AMobile: ${encodeURIComponent(phone)}%0AClass/Course: ${encodeURIComponent(standard)}%0AMessage: ${encodeURIComponent(message)}`;
+    window.open(`https://wa.me/918668410379?text=${text}`, '_blank', 'noopener');
+  });
+</script>
+</body>
+</html>
